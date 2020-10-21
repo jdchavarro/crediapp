@@ -1,1 +1,34 @@
 # crediapp
+
+## Tablas
+
+- Usuarios
+    - id
+    - nombreUsuario
+    - contrasena
+- Clientes
+    - id
+    - cedula
+    - nombres
+    - apellidos
+    - telefonoCelular
+    - telefonoFijo
+    - direccion
+    - descripcion
+- Creditos
+    - id
+    - valor
+    - numeroCuotas
+    - valorCuota
+    - total
+    - numeroFactura
+    - saldo
+    - fecha
+    - descripcion
+    - estado
+    - idCliente
+- Abonos
+    - id
+    - valor
+    - fecha
+    - idCredito
