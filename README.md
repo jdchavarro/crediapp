@@ -3,32 +3,33 @@
 ## Tablas
 
 - Usuarios
-    - id
-    - nombreUsuario
-    - contrasena
+  - id
+  - nombreUsuario
+  - contrasena
 - Clientes
-    - id
-    - cedula
-    - nombres
-    - apellidos
-    - telefonoCelular
-    - telefonoFijo
-    - direccion
-    - descripcion
+  - id
+  - cedula
+  - nombres
+  - apellidos
+  - telefonoCelular
+  - telefonoFijo
+  - direccion
+  - descripcion
 - Creditos
-    - id
-    - valor
-    - numeroCuotas
-    - valorCuota
-    - total
-    - numeroFactura
-    - saldo
-    - fecha
-    - descripcion
-    - estado
-    - idCliente
+  - id
+  - valor
+  - numeroCuotas
+  - valorCuota
+  - total
+  - numeroFactura
+  - valorFactura
+  - saldo
+  - fecha
+  - descripcion
+  - estado
+  - idCliente
 - Abonos
-    - id
-    - valor
-    - fecha
-    - idCredito
+  - id
+  - valor
+  - fecha
+  - idCredito

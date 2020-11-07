@@ -6,6 +6,7 @@ class View {
     }
 
     public function render($path, $data = "") {
+        extract($data);
         require VIEWS . $path . '.php';
     }
 }
