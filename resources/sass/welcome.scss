@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("/img/bg/welcome-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+}
+
+#formLogIn {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10%;
+}
